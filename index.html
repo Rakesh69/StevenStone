@@ -12,11 +12,12 @@
 	<link rel="stylesheet" href="assets/css/mobile.css" type="text/css">	
 	<link rel="stylesheet" href="assets/css/fontas.css" type="text/css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">	
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/theme.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 </head>
 
 <body>
@@ -325,8 +326,8 @@
 							  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 								  <h4>Shape</h4>
 								  <div class="row five-columns">
-									  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 sk-five sk_img_shapes">
-										<a alt="shape"  href="#">
+									  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 sk-five sk_img_shapes active">
+										<a alt="shape"  href="#" >
 											<img alt="arrow" src="assets/img/round1.png" class="img-responsive center-block" />  											
 										</a>
 									  </div>
@@ -379,17 +380,176 @@
 									  </div>									  
 								  </div>
 							  </div>
-							  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-								  
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-								  
+							  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 sk_ranger">		
+									<h4 class="display-flex">Carat<img alt="arrow" src="assets/img/carat.png" class="img-responsive sk_carat_img" /></h4>
+								  <div class="rangeslider">
+										<input class="min" name="range_1" type="range" min="1" max="100" value="10" />
+										<input class="max" name="range_1" type="range" min="1" max="100" value="90" />
+										<span class="range_min light left">0.18</span>
+										<span class="range_max light right">3.00</span>
+								  </div>						
+							  </div>							
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  sk_ranger">
+								<h4>Price</h4>
+								<div class="rangeslider">
+									  <input class="min" name="range_1" type="range" min="1" max="100" value="10" />
+									  <input class="max" name="range_1" type="range" min="1" max="100" value="90" />
+									  <span class="range_min light left">0.18</span>
+									  <span class="range_max light right">3.00</span>
+								</div>	
 							</div>
 						  </div>
+						  <div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 sk_ranger">
+								<h4 class="display-flex">Cut<img alt="arrow" src="assets/img/carat.png" class="img-responsive sk_carat_img" /></h4>
+								<div class="rangeslider">
+									<input class="min" name="range_1" type="range" min="1" max="100" value="10" />
+									<input class="max" name="range_1" type="range" min="1" max="100" value="90" />
+									<span class="range_min light left">0.18</span>
+									<span class="range_max light right">3.00</span>
+							  	</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 sk_ranger">		
+								<h4 class="display-flex">Clarity<img alt="arrow" src="assets/img/carat.png" class="img-responsive sk_carat_img" /></h4>
+								<div class="rangeslider">
+									  <input class="min" name="range_1" type="range" min="1" max="100" value="10" />
+									  <input class="max" name="range_1" type="range" min="1" max="100" value="90" />
+									  <span class="range_min light left">0.18</span>
+									  <span class="range_max light right">3.00</span>
+								</div>						
+							</div>							
+						  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  sk_ranger">
+							  <h4 class="display-flex">Colour<img alt="arrow" src="assets/img/carat.png" class="img-responsive sk_carat_img" /></h4>
+							  <div class="rangeslider">
+									<input class="min" name="range_1" type="range" min="1" max="100" value="10" />
+									<input class="max" name="range_1" type="range" min="1" max="100" value="90" />
+									<span class="range_min light left">0.18</span>
+									<span class="range_max light right">3.00</span>
+							  </div>	
+						  </div>
+						</div>		
+						<div class="sk_switch padding-bottom-20">
+							<span>Basic Filters</span><label class="switch">
+								<input type="checkbox">
+								<span class="slider round"></span>
+							  </label><span>Advanced Filters</span>
+						</div>			 						 
 						</div>
-						<div id="lab" class="container tab-pane fade"><br>
-						  <h3>Menu 1</h3>
-						  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+						<div id="lab" class="container tab-pane fade"><br>							
+								<div class="row">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+										<h4>Shape</h4>
+										<div class="row five-columns">
+											<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 sk-five sk_img_shapes active">
+											  <a alt="shape"  href="#" >
+												  <img alt="arrow" src="assets/img/round1.png" class="img-responsive center-block" />  											
+											  </a>
+											</div>
+											<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 sk-five sk_img_shapes">
+											  <a alt="shape"  href="#">
+												  <img alt="arrow" src="assets/img/round1.png" class="img-responsive center-block" />  											
+											  </a>
+											</div>
+											<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 sk-five sk_img_shapes">
+											  <a alt="shape"  href="#">
+												  <img alt="arrow" src="assets/img/round1.png" class="img-responsive center-block" />  											
+											  </a>
+											</div>
+											<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 sk-five sk_img_shapes">
+											  <a alt="shape"  href="#">
+												  <img alt="arrow" src="assets/img/round1.png" class="img-responsive center-block" />  											
+											  </a>
+											</div>
+											<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 sk-five sk_img_shapes">
+											  <a alt="shape"  href="#">
+												  <img alt="arrow" src="assets/img/round1.png" class="img-responsive center-block" />  											
+											  </a>
+											</div>									  
+										</div>
+										<div class="row five-columns">
+											<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 sk-five sk_img_shapes">
+											  <a alt="shape"  href="#">
+												  <img alt="arrow" src="assets/img/round1.png" class="img-responsive center-block" />  											
+											  </a>
+											</div>
+											<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 sk-five sk_img_shapes">
+											  <a alt="shape"  href="#">
+												  <img alt="arrow" src="assets/img/round1.png" class="img-responsive center-block" />  											
+											  </a>
+											</div>
+											<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 sk-five sk_img_shapes">
+											  <a alt="shape"  href="#" >
+												  <img alt="arrow" src="assets/img/round1.png" class="img-responsive center-block" />  											
+											  </a>
+											</div>
+											<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 sk-five sk_img_shapes">
+											  <a alt="shape"  href="#">
+												  <img alt="arrow" src="assets/img/round1.png" class="img-responsive center-block" />  											
+											  </a>
+											</div>
+											<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 sk-five sk_img_shapes">
+											  <a alt="shape"  href="#">
+												  <img alt="arrow" src="assets/img/round1.png" class="img-responsive center-block" />  											
+											  </a>
+											</div>									  
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 sk_ranger">		
+										  <h4 class="display-flex">Carat<img alt="arrow" src="assets/img/carat.png" class="img-responsive sk_carat_img" /></h4>
+										<div class="rangeslider">
+											  <input class="min" name="range_1" type="range" min="1" max="100" value="10" />
+											  <input class="max" name="range_1" type="range" min="1" max="100" value="90" />
+											  <span class="range_min light left">0.18</span>
+											  <span class="range_max light right">3.00</span>
+										</div>						
+									</div>							
+								  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  sk_ranger">
+									  <h4>Price</h4>
+									  <div class="rangeslider">
+											<input class="min" name="range_1" type="range" min="1" max="100" value="10" />
+											<input class="max" name="range_1" type="range" min="1" max="100" value="90" />
+											<span class="range_min light left">0.18</span>
+											<span class="range_max light right">3.00</span>
+									  </div>	
+								  </div>
+								</div>
+								<div class="row">
+								  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 sk_ranger">
+									  <h4 class="display-flex">Cut<img alt="arrow" src="assets/img/carat.png" class="img-responsive sk_carat_img" /></h4>
+									  <div class="rangeslider">
+										  <input class="min" name="range_1" type="range" min="1" max="100" value="10" />
+										  <input class="max" name="range_1" type="range" min="1" max="100" value="90" />
+										  <span class="range_min light left">0.18</span>
+										  <span class="range_max light right">3.00</span>
+										</div>
+								  </div>
+								  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 sk_ranger">		
+									  <h4 class="display-flex">Clarity<img alt="arrow" src="assets/img/carat.png" class="img-responsive sk_carat_img" /></h4>
+									  <div class="rangeslider">
+											<input class="min" name="range_1" type="range" min="1" max="100" value="10" />
+											<input class="max" name="range_1" type="range" min="1" max="100" value="90" />
+											<span class="range_min light left">0.18</span>
+											<span class="range_max light right">3.00</span>
+									  </div>						
+								  </div>							
+								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  sk_ranger">
+									<h4 class="display-flex">Colour<img alt="arrow" src="assets/img/carat.png" class="img-responsive sk_carat_img" /></h4>
+									<div class="rangeslider">
+										  <input class="min" name="range_1" type="range" min="1" max="100" value="10" />
+										  <input class="max" name="range_1" type="range" min="1" max="100" value="90" />
+										  <span class="range_min light left">0.18</span>
+										  <span class="range_max light right">3.00</span>
+									</div>	
+								</div>
+							  </div>		
+							  <div class="sk_switch padding-bottom-20">
+								  <span>Basic Filters</span><label class="switch">
+									  <input type="checkbox">
+									  <span class="slider round"></span>
+									</label><span>Advanced Filters</span>
+							  </div>			 						 
+							  
 						</div>						
 					  </div>
 				</div>
@@ -397,6 +557,985 @@
 		</div>
 		</div>
 		
+	</div>
+</section>
+
+
+<section id="sk_lab_grown " class="padding-top-80">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<div class="sk_lab_grown_images">
+					<div class="sk_select_natural_lab_head">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-2"><img alt="arrow" src="assets/img/lab1.png" class="img-responsive sk_lab_img" /></div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-left-0"><h4>Lab Grown</h4></div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><img alt="arrow" src="assets/img/logo_icon.png" class="img-responsive sk_lab_img" /></div>
+						</div>
+					</div>
+					<div class="sk_lab_mid padding-top-5">
+						<img alt="arrow" src="assets/img/lab_grown.png" class="img-responsive center-block" />
+					</div>
+					<div class="sk_lab_mid_details">
+						<div class="row padding-top-10 padding-bottom-20">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h4><b>1849.00</b></h4></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp sk_header_btn_adv">Advanced Info</button></div>
+						</div>
+						<div class="sk_carat_colour">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Carat</b></h4>
+									<h4>1.00ct</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Colour</b></h4>
+									<h4>K</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Clarity</b></h4>
+									<h4>VVS1</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+									<h4><b>Cut</b></h4>
+									<h4>Good</h4>
+								</div>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<button type="button" class="btn sk_header_btn_dia width-100p">Choose Diamond</button>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">More Info</button></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">Compare</button></div>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<div class="sk_lab_grown_images">
+					<div class="sk_select_natural_lab_head">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-2"><img alt="arrow" src="assets/img/lab1.png" class="img-responsive sk_lab_img" /></div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-left-0"><h4>Lab Grown</h4></div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><img alt="arrow" src="assets/img/logo_icon.png" class="img-responsive sk_lab_img" /></div>
+						</div>
+					</div>
+					<div class="sk_lab_mid padding-top-5">
+						<img alt="arrow" src="assets/img/lab_grown.png" class="img-responsive center-block" />
+					</div>
+					<div class="sk_lab_mid_details">
+						<div class="row padding-top-10 padding-bottom-20">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h4><b>1849.00</b></h4></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp sk_header_btn_adv">Advanced Info</button></div>
+						</div>
+						<div class="sk_carat_colour">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Carat</b></h4>
+									<h4>1.00ct</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Colour</b></h4>
+									<h4>K</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Clarity</b></h4>
+									<h4>VVS1</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+									<h4><b>Cut</b></h4>
+									<h4>Good</h4>
+								</div>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<button type="button" class="btn sk_header_btn_dia width-100p">Choose Diamond</button>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">More Info</button></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">Compare</button></div>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<div class="sk_lab_grown_images">
+					<div class="sk_select_natural_lab_head">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-2"><img alt="arrow" src="assets/img/lab1.png" class="img-responsive sk_lab_img" /></div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-left-0"><h4>Lab Grown</h4></div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><img alt="arrow" src="assets/img/logo_icon.png" class="img-responsive sk_lab_img" /></div>
+						</div>
+					</div>
+					<div class="sk_lab_mid padding-top-5">
+						<img alt="arrow" src="assets/img/lab_grown.png" class="img-responsive center-block" />
+					</div>
+					<div class="sk_lab_mid_details">
+						<div class="row padding-top-10 padding-bottom-20">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h4><b>1849.00</b></h4></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp sk_header_btn_adv">Advanced Info</button></div>
+						</div>
+						<div class="sk_carat_colour">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Carat</b></h4>
+									<h4>1.00ct</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Colour</b></h4>
+									<h4>K</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Clarity</b></h4>
+									<h4>VVS1</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+									<h4><b>Cut</b></h4>
+									<h4>Good</h4>
+								</div>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<button type="button" class="btn sk_header_btn_dia width-100p">Choose Diamond</button>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">More Info</button></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">Compare</button></div>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<div class="sk_lab_grown_images">
+					<div class="sk_select_natural_lab_head">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-2"><img alt="arrow" src="assets/img/lab1.png" class="img-responsive sk_lab_img" /></div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-left-0"><h4>Lab Grown</h4></div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><img alt="arrow" src="assets/img/logo_icon.png" class="img-responsive sk_lab_img" /></div>
+						</div>
+					</div>
+					<div class="sk_lab_mid padding-top-5">
+						<img alt="arrow" src="assets/img/lab_grown.png" class="img-responsive center-block" />
+					</div>
+					<div class="sk_lab_mid_details">
+						<div class="row padding-top-10 padding-bottom-20">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h4><b>1849.00</b></h4></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp sk_header_btn_adv">Advanced Info</button></div>
+						</div>
+						<div class="sk_carat_colour">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Carat</b></h4>
+									<h4>1.00ct</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Colour</b></h4>
+									<h4>K</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Clarity</b></h4>
+									<h4>VVS1</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+									<h4><b>Cut</b></h4>
+									<h4>Good</h4>
+								</div>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<button type="button" class="btn sk_header_btn_dia width-100p">Choose Diamond</button>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">More Info</button></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">Compare</button></div>
+						</div>				
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<div class="sk_lab_grown_images">
+					<div class="sk_select_natural_lab_head">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-2"><img alt="arrow" src="assets/img/lab1.png" class="img-responsive sk_lab_img" /></div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-left-0"><h4>Lab Grown</h4></div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><img alt="arrow" src="assets/img/logo_icon.png" class="img-responsive sk_lab_img" /></div>
+						</div>
+					</div>
+					<div class="sk_lab_mid padding-top-5">
+						<img alt="arrow" src="assets/img/lab_grown.png" class="img-responsive center-block" />
+					</div>
+					<div class="sk_lab_mid_details">
+						<div class="row padding-top-10 padding-bottom-20">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h4><b>1849.00</b></h4></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp sk_header_btn_adv">Advanced Info</button></div>
+						</div>
+						<div class="sk_carat_colour">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Carat</b></h4>
+									<h4>1.00ct</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Colour</b></h4>
+									<h4>K</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Clarity</b></h4>
+									<h4>VVS1</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+									<h4><b>Cut</b></h4>
+									<h4>Good</h4>
+								</div>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<button type="button" class="btn sk_header_btn_dia width-100p">Choose Diamond</button>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">More Info</button></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">Compare</button></div>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<div class="sk_lab_grown_images">
+					<div class="sk_select_natural_lab_head">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-2"><img alt="arrow" src="assets/img/lab1.png" class="img-responsive sk_lab_img" /></div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-left-0"><h4>Lab Grown</h4></div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><img alt="arrow" src="assets/img/logo_icon.png" class="img-responsive sk_lab_img" /></div>
+						</div>
+					</div>
+					<div class="sk_lab_mid padding-top-5">
+						<img alt="arrow" src="assets/img/lab_grown.png" class="img-responsive center-block" />
+					</div>
+					<div class="sk_lab_mid_details">
+						<div class="row padding-top-10 padding-bottom-20">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h4><b>1849.00</b></h4></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp sk_header_btn_adv">Advanced Info</button></div>
+						</div>
+						<div class="sk_carat_colour">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Carat</b></h4>
+									<h4>1.00ct</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Colour</b></h4>
+									<h4>K</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Clarity</b></h4>
+									<h4>VVS1</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+									<h4><b>Cut</b></h4>
+									<h4>Good</h4>
+								</div>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<button type="button" class="btn sk_header_btn_dia width-100p">Choose Diamond</button>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">More Info</button></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">Compare</button></div>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<div class="sk_lab_grown_images">
+					<div class="sk_select_natural_lab_head">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-2"><img alt="arrow" src="assets/img/lab1.png" class="img-responsive sk_lab_img" /></div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-left-0"><h4>Lab Grown</h4></div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><img alt="arrow" src="assets/img/logo_icon.png" class="img-responsive sk_lab_img" /></div>
+						</div>
+					</div>
+					<div class="sk_lab_mid padding-top-5">
+						<img alt="arrow" src="assets/img/lab_grown.png" class="img-responsive center-block" />
+					</div>
+					<div class="sk_lab_mid_details">
+						<div class="row padding-top-10 padding-bottom-20">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h4><b>1849.00</b></h4></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp sk_header_btn_adv">Advanced Info</button></div>
+						</div>
+						<div class="sk_carat_colour">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Carat</b></h4>
+									<h4>1.00ct</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Colour</b></h4>
+									<h4>K</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Clarity</b></h4>
+									<h4>VVS1</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+									<h4><b>Cut</b></h4>
+									<h4>Good</h4>
+								</div>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<button type="button" class="btn sk_header_btn_dia width-100p">Choose Diamond</button>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">More Info</button></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">Compare</button></div>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<div class="sk_lab_grown_images">
+					<div class="sk_select_natural_lab_head">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-2"><img alt="arrow" src="assets/img/lab1.png" class="img-responsive sk_lab_img" /></div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-left-0"><h4>Lab Grown</h4></div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><img alt="arrow" src="assets/img/logo_icon.png" class="img-responsive sk_lab_img" /></div>
+						</div>
+					</div>
+					<div class="sk_lab_mid padding-top-5">
+						<img alt="arrow" src="assets/img/lab_grown.png" class="img-responsive center-block" />
+					</div>
+					<div class="sk_lab_mid_details">
+						<div class="row padding-top-10 padding-bottom-20">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h4><b>1849.00</b></h4></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp sk_header_btn_adv">Advanced Info</button></div>
+						</div>
+						<div class="sk_carat_colour">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Carat</b></h4>
+									<h4>1.00ct</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Colour</b></h4>
+									<h4>K</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Clarity</b></h4>
+									<h4>VVS1</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+									<h4><b>Cut</b></h4>
+									<h4>Good</h4>
+								</div>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<button type="button" class="btn sk_header_btn_dia width-100p">Choose Diamond</button>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">More Info</button></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">Compare</button></div>
+						</div>				
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<div class="sk_lab_grown_images">
+					<div class="sk_select_natural_lab_head">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-2"><img alt="arrow" src="assets/img/lab1.png" class="img-responsive sk_lab_img" /></div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-left-0"><h4>Lab Grown</h4></div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><img alt="arrow" src="assets/img/logo_icon.png" class="img-responsive sk_lab_img" /></div>
+						</div>
+					</div>
+					<div class="sk_lab_mid padding-top-5">
+						<img alt="arrow" src="assets/img/lab_grown.png" class="img-responsive center-block" />
+					</div>
+					<div class="sk_lab_mid_details">
+						<div class="row padding-top-10 padding-bottom-20">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h4><b>1849.00</b></h4></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp sk_header_btn_adv">Advanced Info</button></div>
+						</div>
+						<div class="sk_carat_colour">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Carat</b></h4>
+									<h4>1.00ct</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Colour</b></h4>
+									<h4>K</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Clarity</b></h4>
+									<h4>VVS1</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+									<h4><b>Cut</b></h4>
+									<h4>Good</h4>
+								</div>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<button type="button" class="btn sk_header_btn_dia width-100p">Choose Diamond</button>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">More Info</button></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">Compare</button></div>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<div class="sk_lab_grown_images">
+					<div class="sk_select_natural_lab_head">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-2"><img alt="arrow" src="assets/img/lab1.png" class="img-responsive sk_lab_img" /></div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-left-0"><h4>Lab Grown</h4></div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><img alt="arrow" src="assets/img/logo_icon.png" class="img-responsive sk_lab_img" /></div>
+						</div>
+					</div>
+					<div class="sk_lab_mid padding-top-5">
+						<img alt="arrow" src="assets/img/lab_grown.png" class="img-responsive center-block" />
+					</div>
+					<div class="sk_lab_mid_details">
+						<div class="row padding-top-10 padding-bottom-20">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h4><b>1849.00</b></h4></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp sk_header_btn_adv">Advanced Info</button></div>
+						</div>
+						<div class="sk_carat_colour">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Carat</b></h4>
+									<h4>1.00ct</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Colour</b></h4>
+									<h4>K</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Clarity</b></h4>
+									<h4>VVS1</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+									<h4><b>Cut</b></h4>
+									<h4>Good</h4>
+								</div>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<button type="button" class="btn sk_header_btn_dia width-100p">Choose Diamond</button>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">More Info</button></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">Compare</button></div>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<div class="sk_lab_grown_images">
+					<div class="sk_select_natural_lab_head">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-2"><img alt="arrow" src="assets/img/lab1.png" class="img-responsive sk_lab_img" /></div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-left-0"><h4>Lab Grown</h4></div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><img alt="arrow" src="assets/img/logo_icon.png" class="img-responsive sk_lab_img" /></div>
+						</div>
+					</div>
+					<div class="sk_lab_mid padding-top-5">
+						<img alt="arrow" src="assets/img/lab_grown.png" class="img-responsive center-block" />
+					</div>
+					<div class="sk_lab_mid_details">
+						<div class="row padding-top-10 padding-bottom-20">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h4><b>1849.00</b></h4></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp sk_header_btn_adv">Advanced Info</button></div>
+						</div>
+						<div class="sk_carat_colour">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Carat</b></h4>
+									<h4>1.00ct</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Colour</b></h4>
+									<h4>K</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Clarity</b></h4>
+									<h4>VVS1</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+									<h4><b>Cut</b></h4>
+									<h4>Good</h4>
+								</div>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<button type="button" class="btn sk_header_btn_dia width-100p">Choose Diamond</button>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">More Info</button></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">Compare</button></div>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+				<div class="sk_lab_grown_images">
+					<div class="sk_select_natural_lab_head">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-2"><img alt="arrow" src="assets/img/lab1.png" class="img-responsive sk_lab_img" /></div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-left-0"><h4>Lab Grown</h4></div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><img alt="arrow" src="assets/img/logo_icon.png" class="img-responsive sk_lab_img" /></div>
+						</div>
+					</div>
+					<div class="sk_lab_mid padding-top-5">
+						<img alt="arrow" src="assets/img/lab_grown.png" class="img-responsive center-block" />
+					</div>
+					<div class="sk_lab_mid_details">
+						<div class="row padding-top-10 padding-bottom-20">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><h4><b>1849.00</b></h4></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp sk_header_btn_adv">Advanced Info</button></div>
+						</div>
+						<div class="sk_carat_colour">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Carat</b></h4>
+									<h4>1.00ct</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Colour</b></h4>
+									<h4>K</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center border-right-gray">
+									<h4><b>Clarity</b></h4>
+									<h4>VVS1</h4>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+									<h4><b>Cut</b></h4>
+									<h4>Good</h4>
+								</div>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<button type="button" class="btn sk_header_btn_dia width-100p">Choose Diamond</button>
+							</div>
+						</div>	
+						<div class="row padding-v-10">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">More Info</button></div>							
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn sk_header_btn_exp width-100p">Compare</button></div>
+						</div>				
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="sk_arrow text-center">
+					<img alt="arrow" src="assets/img/arrow.png" class="img-responsive padding-top-80 center-block height-200" />					
+				</div>		
+			</div>
+		</div>		
+		</div>
+</section>
+
+<section>
+	<div class="text-center padding-v-20">
+		<h2>Review Your Design</h2>
+	</div>
+</section>
+<section id="sk_review_design">
+	<div class="container">		
+		<div class="row padding-top-20">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  padding-top-10">
+				<img alt="purchase" src="assets/img/ring.png" class="img-responsive  border-radius-5" />
+				<div class="sk_review_1">					
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5>Diamonad Set Lotus</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+							<h4 class="sk-blue-color"><b>530.00</b></h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5><b>Design ID:</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+							<h5>PRS0516</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5><b>Metal:</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+							<h5>Platinum</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5><b>Style:</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+							<h5>Shoulder Set</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5><b>Shape:</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+							<h5>Princess Cut</h5>
+						</div>
+					</div>
+					<div class="row padding-top-20">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5><b>Finger Size:</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 sk_review_size">
+							<div class="dropdown">
+								<a class="btn btn-secondary dropdown-toggle display-flex" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<span class="padding-right-5">Please Select</span><img alt="shop" src="assets/img/downarrow.png" class="img-responsive sk_review_img">
+								</a>						  
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								  <a class="dropdown-item" href="#">6</a>
+								  <a class="dropdown-item" href="#">7</a>
+								  <a class="dropdown-item" href="#">8</a>
+								  <a class="dropdown-item" href="#">9</a>
+								  <a class="dropdown-item" href="#">10</a>
+								</div>
+							  </div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5><b>Add Engraving:</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 sk_review_size">
+							<div class="dropdown ">
+								<a class="btn btn-secondary dropdown-toggle display-flex" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<span class="padding-right-5">None</span><img alt="shop" src="assets/img/downarrow.png" class="img-responsive sk_review_img">
+								</a>						  
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								  <a class="dropdown-item" href="#">6</a>
+								  <a class="dropdown-item" href="#">7</a>
+								  <a class="dropdown-item" href="#">8</a>
+								  <a class="dropdown-item" href="#">9</a>
+								  <a class="dropdown-item" href="#">10</a>
+								</div>
+							  </div>
+						</div>
+					</div>
+					
+					<div class="row sk_change padding-bottom-80 padding-top-80">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+						<a href="#">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 padding-right-0">
+							<img alt="shop" src="assets/img/pen.png" class="img-responsive">
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-left-0">
+							<h5 class="sk-basic-color display-table">change ring design</h5>
+						</div>
+						</a>
+					</div>
+				</div>				
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-top-10">
+				<img alt="purchase" src="assets/img/lab_grown.png" class="img-responsive  center-block border-radius-5" />
+				<div class="sk_review_1">
+					
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5>1.00c Round Diamond</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+							<h5 class="sk-blue-color"><b>261.98</b></h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5><b>Stock Number:</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+							<h5>RBPUIFSFG</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5><b>Carat:</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+							<h5>1.00ct</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5><b>Colour:</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+							<h5>H</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5><b>Clarity:</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+							<h5>VS1</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5><b>Polish:</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+							<h5>Very Good</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5><b>Symmetry:</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+							<h5>Excellent</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5><b>Cut:</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+							<h5>Excellent</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5><b>Fluorescence:</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+							<h5>Medium</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5><b>Measure(mm):</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+							<h5>3.70 x 3.69 x 2.21</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<h5><b>Certificate:</h5>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+							<h5>GIA 6321993250</h5>
+						</div>
+					</div>
+					
+					<div class="row sk_change padding-bottom-80 padding-top-80">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+						<a href="#">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 padding-right-0">
+							<img alt="shop" src="assets/img/pen.png" class="img-responsive">
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-left-0">
+							<h5 class="sk-basic-color display-table">change ring design</h5>
+						</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+				<h4 class="sk-blue-color">Ring Details</h4>
+				<h4>Platinum Simplicity with Round, 0.18ct,I Colour, SI1 Clarity - GIA 46745876</h4>
+				<div class="row padding-v-10">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<h5><b>Ring Size:</b></h5>
+					</div>
+					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 sk_review_size">
+						<div class="dropdown ">
+							<a class="btn btn-secondary dropdown-toggle display-flex" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="padding-right-5">Please Select</span><img alt="shop" src="assets/img/downarrow.png" class="img-responsive sk_review_img">
+							</a>						  
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+							  <a class="dropdown-item" href="#">6</a>
+							  <a class="dropdown-item" href="#">7</a>
+							  <a class="dropdown-item" href="#">8</a>
+							  <a class="dropdown-item" href="#">9</a>
+							  <a class="dropdown-item" href="#">10</a>
+							</div>
+						  </div>
+					</div>					
+				</div>
+				<div class="row padding-v-20">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<h4 class="sk-blue-color">Shipping</h4>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<img alt="shop" src="assets/img/order.png" class="img-responsive sk-order-size">
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">						
+					</div>
+				</div>
+				<div class="sk_order_detail"><p>Order in <span class="text-danger">4 hours 3 mins and 30 secs</span>
+					for your order to ship by Thursday, October 22.</p></div>
+				<h6>Free Shipping, Hassle-Free Returns</h6>	
+				<h5><b>Need it sooner? </b> Contact Us on 0800 080 3535 or</h5>
+				<a href="#" class="sk_change"><h5 class="display-inherit sk-basic-color">open online chat</h5></a>
+				<h4 class="sk-blue-color">Payment Options</h4>		
+				<div class="row">
+					<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+						<img alt="shop" src="assets/img/klarna.png" class="img-responsive sk-order-size">
+						<h4>Pay with Finance</h4>
+						<h3 class="sk-blue-color padding-bottom-20"><b>From 200/mo.</b></h3>
+						<a href="#" class="sk_change"><h5 class="display-inherit sk-basic-color">Finance Calculator</h5></a>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 padding-top-20">
+						<h2>or</h2>
+					</div>
+					<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+						<ul class="sk_ui sk_footer_visa sk_footer_img_visa_img padding-top-25">
+							<li><a href="index.html"><img alt="shop" src="assets/img/visa-1.png" class="img-responsive center-block sk_footer_img_visa sk_footer_img_visa_img"></a></li>
+							<li><a href="index.html"><img alt="shop" src="assets/img/visa-2.png" class="img-responsive center-block sk_footer_img_visa sk_footer_img_visa_img"></a></li>
+							<li><a href="index.html"><img alt="shop" src="assets/img/visa-3.png" class="img-responsive center-block sk_footer_img_visa sk_footer_img_visa_img"></a></li>
+							<li><a href="index.html"><img alt="shop" src="assets/img/visa-4.png" class="img-responsive center-block sk_footer_img_visa sk_footer_img_visa_img"></a></li>									
+						</ul>						
+						<h4 class="padding-top-20">Pay in full</h4>
+						<h3 class="sk-blue-color padding-bottom-20"><b>14500</b></h3>
+					</div>
+				</div>	
+				<div class="padding-top-20">
+					<p>Payment options are selected at the Checkout</p>
+					<button type="button" class="btn sk_header_btn_dia width-100p">Buy Now</button>
+				</div>					
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="sk_shippng" class="padding-top-80 padding-bottom-80">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+				<img alt="arrow" src="assets/img/shipping.png" class="img-responsive center-block sk_shipping" />	
+				<h3><b>Engagement</b></h3>
+				<p>
+					A four claw solitaire style engagement ring. The ring is set in 18ct rose gold and features a round briliant diamond.
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+				<img alt="arrow" src="assets/img/drop.png" class="img-responsive center-block sk_shipping" />
+				<h3><b>Engagement</b></h3>
+				<p>
+					A four claw solitaire style engagement ring. The ring is set in 18ct rose gold and features a round briliant diamond.
+				</p>	
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+				<img alt="arrow" src="assets/img/size11.png" class="img-responsive center-block sk_shipping" />	
+				<h3><b>Engagement</b></h3>
+				<p>
+					A four claw solitaire style engagement ring. The ring is set in 18ct rose gold and features a round briliant diamond.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 background-color-gray padding-v-10 padding-left-10 height-344">
+				<p class="sk-blue-color">A four claw solitaire style</p>
+				<h1 class="padding-bottom-80 font-size-60">See What People Say</h1>
+				<ul class="sk_ui sk_footer_sponsor">
+					<li><a href="index.html"><img alt="shop" src="assets/img/sp-3.png" class="img-responsive center-block sk_footer_img"></a></li>
+					<li><a href="index.html"><img alt="shop" src="assets/img/sp-1.png" class="img-responsive center-block sk_footer_img"></a></li>
+					<li><a href="index.html"><img alt="shop" src="assets/img/sp-2.png" class="img-responsive center-block sk_footer_img"></a></li>					
+				</ul>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center height-344">
+				<img alt="arrow" src="assets/img/startw.png" class="img-responsive center-block sk_shipping padding-top-80" />	
+				<h4 class="padding-v-10">David Kinsella</h4>
+				<p>" A four claw solitaire style engagement ring. The ring is set in 18ct rose gold and features a round briliant diamond. "</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 background-color-gray text-center height-344">
+				<img alt="arrow" src="assets/img/startg.png" class="img-responsive center-block sk_shipping padding-top-80" />	
+				<h4 class="padding-v-10">David Kinsella</h4>
+				<p>" A four claw solitaire style engagement ring. The ring is set in 18ct rose gold and features a round briliant diamond. "</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="background-color-light-gray">
+	<div class="container">
+		<div class="row padding-top-80 padding-bottom-80">
+			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+				<h2>Subscribe To Our Newsletter</h2>
+				<p class="padding-right-50">A four claw solitaire style engagement ring. The ring is set in 18ct rose gold and features a round briliant diamondA four claw solitaire style engagement ring. The ring is set in 18ct rose gold and features a round briliant diamondA four claw solitaire style engagement ring. The ring is set in 18ct rose gold and features a round briliant diamond</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<div class="sk_switch">
+					<label class="toggle-label">
+						<input type="checkbox">
+						<span class="back">
+						<span class="toggle"></span>
+						<span class="label on">Male</span>
+						<span class="label off">FEMALE</span>
+						</span>
+					</label>
+				</div>
+				<div class="sk_email ">					
+					<div class="row padding-v-20 border-bottom">
+						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+							<h4>Your email address</h4>							
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<img alt="shop" src="assets/img/arrow-right.png" class="img-responsive">
+						</div>
+					</div>
+					<p class="padding-top-10">A four claw solitaire style engagement ring. The ring is set in 18ct rose gold and features a round briliant diamond.</p>					
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 
@@ -501,3 +1640,46 @@
 
 </body>
 </html>
+
+<script>
+	(function() {
+
+function addSeparator(nStr) {
+nStr += '';
+var x = nStr.split('.');
+var x1 = x[0];
+var x2 = x.length > 1 ? '.' + x[1] : '';
+var rgx = /(\d+)(\d{3})/;
+while (rgx.test(x1)) {
+x1 = x1.replace(rgx, '$1' + '.' + '$2');
+}
+return x1 + x2;
+}
+
+function rangeInputChangeEventHandler(e){
+var rangeGroup = $(this).attr('name'),
+minBtn = $(this).parent().children('.min'),
+maxBtn = $(this).parent().children('.max'),
+range_min = $(this).parent().children('.range_min'),
+range_max = $(this).parent().children('.range_max'),
+minVal = parseInt($(minBtn).val()),
+maxVal = parseInt($(maxBtn).val()),
+origin = $(this).context.className;
+
+if(origin === 'min' && minVal > maxVal-5){
+$(minBtn).val(maxVal-5);
+}
+var minVal = parseInt($(minBtn).val());
+$(range_min).html(addSeparator(minVal*1) );
+
+
+if(origin === 'max' && maxVal-5 < minVal){
+$(maxBtn).val(5+ minVal);
+}
+var maxVal = parseInt($(maxBtn).val());
+$(range_max).html(addSeparator(maxVal*1));
+}
+
+$('input[type="range"]').on( 'input', rangeInputChangeEventHandler);
+})();
+</script>
